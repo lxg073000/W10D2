@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./frontend/app.jsx":
@@ -7,7 +8,6 @@
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -31,9 +31,84 @@ var App = function App() {
 /*!****************************!*\
   !*** ./frontend/clock.jsx ***!
   \****************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/frontend/clock.jsx: Missing semicolon (22:19)\n\n\u001b[0m \u001b[90m 20 |\u001b[39m     \u001b[36mlet\u001b[39m time \u001b[33m=\u001b[39m [date\u001b[33m.\u001b[39mgetHours()\u001b[33m,\u001b[39m date\u001b[33m.\u001b[39mgetMinutes()\u001b[33m,\u001b[39m date\u001b[33m.\u001b[39mgetSeconds()]\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msetState(){\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m       hours\u001b[33m:\u001b[39m time[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m       minutes\u001b[33m:\u001b[39m time[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m       seconds\u001b[33m:\u001b[39m time[\u001b[35m2\u001b[39m]\u001b[33m,\u001b[39m\u001b[0m\n    at Object._raise (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:776:17)\n    at Object.raiseWithData (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:769:17)\n    at Object.raise (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:737:17)\n    at Object.semicolon (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:9650:10)\n    at Object.parseExpressionStatement (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:12722:10)\n    at Object.parseStatementContent (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:12320:19)\n    at Object.parseStatement (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:12184:17)\n    at Object.parseBlockOrModuleBlockBody (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:12764:25)\n    at Object.parseBlockBody (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:12755:10)\n    at Object.parseBlock (/Users/appacademystudent/lernard_grigsby_app_academy/aa-classwork/W10D2/node_modules/@babel/parser/lib/index.js:12739:10)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+var Clock = /*#__PURE__*/function (_React$Component) {
+  _inherits(Clock, _React$Component);
+
+  var _super = _createSuper(Clock);
+
+  function Clock(props) {
+    var _this;
+
+    _classCallCheck(this, Clock);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      date: new Date()
+    };
+    _this.tick = _this.tick.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Clock, [{
+    key: "tick",
+    value: function tick() {
+      this.setState({
+        date: new Date()
+      });
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.timerID = setInterval(this.tick, 1000);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearInterval(this.timerID);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var time = this.state.date.toLocaleTimeString();
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, time);
+    }
+  }]);
+
+  return Clock;
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Clock);
 
 /***/ }),
 
@@ -43,7 +118,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \*********************************************/
 /***/ ((module) => {
 
-"use strict";
 /*
 object-assign
 (c) Sindre Sorhus
@@ -144,7 +218,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /** @license React v17.0.1
  * react-dom.development.js
  *
@@ -26412,7 +26485,6 @@ exports.version = ReactVersion;
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 function checkDCE() {
@@ -26456,7 +26528,6 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /** @license React v17.0.1
  * react.development.js
  *
@@ -28800,7 +28871,6 @@ exports.version = ReactVersion;
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
@@ -28816,7 +28886,6 @@ if (false) {} else {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /** @license React v0.20.1
  * scheduler-tracing.development.js
  *
@@ -29174,7 +29243,6 @@ exports.unstable_wrap = unstable_wrap;
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /** @license React v0.20.1
  * scheduler.development.js
  *
@@ -30029,7 +30097,6 @@ exports.unstable_wrapCallback = unstable_wrapCallback;
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
@@ -30045,7 +30112,6 @@ if (false) {} else {
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
@@ -30111,9 +30177,8 @@ if (false) {} else {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!******************************!*\
   !*** ./frontend/widgets.jsx ***!
   \******************************/
